@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CSP removed for development - add back for production -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Table Café - Multi-Tenant Social Café Experience</title>
+    
+    <!-- React Refresh Preamble - Fix for "@vitejs/plugin-react can't detect preamble" -->
+    <script type="module">
+      if (import.meta.env.DEV) {
+        try {
+          const RefreshRuntime = await import('/@react-refresh');
+          RefreshRuntime.injectIntoGlobalHook(window);
+          window.$RefreshReg$ = () => {};
+          window.$RefreshSig$ = () => (type) => type;
+          window.__vite_plugin_react_preamble_installed__ = true;
+        } catch (e) {
+          console.log('React refresh preamble failed to load:', e);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
