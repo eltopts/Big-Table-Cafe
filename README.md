@@ -1,4 +1,4 @@
-# ManzilCafe 2.0 🏪
+# Big Table Cafe 2.0 🏪
 
 A sophisticated virtual social café platform with multi-tenant café spaces, real-time chat, AI bartender integration, voice messaging, virtual ordering, and enterprise-grade security. Experience the future of social interaction in beautifully themed virtual environments.
 
@@ -253,4 +253,4 @@ For support and questions:
 
 ---
 
-**ManzilCafe 2.0** - Where virtual connections become real experiences ☕✨
+**Big Table Cafe 2.0** - Where virtual connections become real experiences ☕✨
